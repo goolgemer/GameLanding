@@ -9,6 +9,10 @@ body {
   background-color: #190a31;
 }
 
+.active_popup {
+  display: block;
+}
+
 .header {
   padding-top: 56px;
   background-image: url("./img/header_bg.png");
@@ -246,10 +250,34 @@ body {
   opacity: 0.8;
 }
 
+.game_popup {
+  position: fixed;
+  background-color: #7070706e;
+  width: 100vw;
+  height: 100vh;
+  z-index: 5;
+  top: 0;
+  display: none;
+}
+.game_iframe {
+  margin-top: 15vh;
+  height: 70%;
+  max-width: 70vw;
+  margin-left: 15vw;
+  border-radius: 20px;
+  border: #ffcf31 solid 5px;
+  background-color: #000000c5;
+}
+
 @media (max-width: 768px) {
   .header {
     padding-left: 12px;
     padding-right: 12px;
+  }
+
+  .game_iframe {
+    max-width: 90vw;
+    margin-left: 3vw;
   }
 
   .header_wrapper {
@@ -364,5 +392,36 @@ body {
   .footer_icon {
     max-width: 70px;
     height: auto;
+  }
+
+  .header_hero-img {
+    display: block;
+    max-width: 80%;
+    margin-right: 10%;
+  }
+
+  .header_paragraph {
+    margin-bottom: 0;
+  }
+
+  .header_button {
+    max-width: 163px;
+    height: 47px;
+  }
+
+  .header_wrapper {
+    overflow: hidden;
+  }
+
+  .header_menu {
+    margin-bottom: 40px;
+  }
+
+  .header_heading {
+    margin-bottom: 0;
+  }
+
+  .header_paragraph {
+    margin-bottom: 10px;
   }
 }
