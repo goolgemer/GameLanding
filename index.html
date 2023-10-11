@@ -13,8 +13,10 @@
           <img class="header_logo" src="./img/Logo.png" alt="Logo" />
           <div class="header_tabs">
             <p class="header_tab"><a class="link" href="">Home</a></p>
-            <p class="header_tab"><a class="link" href="">Popular Games</a></p>
-            <p class="header_tab"><a class="link" href="">About us</a></p>
+            <p class="header_tab">
+              <a class="link" href="#main">Popular Games</a>
+            </p>
+            <p class="header_tab"><a class="link" href="#about">About us</a></p>
           </div>
         </nav>
         <h1 class="header_heading">TOP GAMES ARE HERE, PLAY NOW!</h1>
@@ -23,16 +25,13 @@
           conditions - bonuses, unlimited hours and more.
         </p>
 
-        <button
-          onclick="window.location.href='https://casinoguru-en.com';"
-          class="header_button"
-        >
+        <button onclick="window.location.href='#main'" class="header_button">
           Play Now
         </button>
         <img class="header_hero-img" src="./img/header_hero-img.png" alt="" />
       </div>
     </header>
-    <main class="main">
+    <main id="main" class="main">
       <div class="main_wrapper">
         <h2 class="main_title">Best deals</h2>
         <div class="main_grid">
@@ -73,7 +72,7 @@
             </button>
           </div>
         </div>
-        <div class="main_about">
+        <div id="about" class="main_about">
           <div class="main_about-text">
             <h2 class="main_title">About us</h2>
             <p class="main_paragraph">
