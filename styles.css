@@ -13,6 +13,10 @@ body {
   background-color: #190a31;
 }
 
+button {
+  border: none;
+}
+
 .active_popup {
   display: block;
 }
