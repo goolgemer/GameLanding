@@ -294,9 +294,9 @@ body {
   height: 70%;
   max-width: 70vw;
   margin-left: 15vw;
-  border-radius: 20px;
-  border: #ffcf31 solid 5px;
-  background-color: #000000c5;
+  border-radius: 50px;
+  background-color: #190a31;
+  border: none;
 }
 
 @media (max-width: 768px) {
@@ -409,6 +409,10 @@ body {
     height: 31px;
   }
 
+  .grid_card-img {
+    border-radius: 0px;
+  }
+
   .main_bullet-img {
     max-width: 95px;
     width: 100%;
@@ -417,6 +421,10 @@ body {
 
   .main_bullet-title {
     font-size: 16px;
+  }
+
+  .main_paragraph {
+    text-align: center;
   }
 
   .footer_icon {
