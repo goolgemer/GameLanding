@@ -80,10 +80,22 @@ button {
   margin-bottom: 80px;
 }
 
+.header_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .header_logo {
-  width: 100%;
-  height: auto;
-  max-width: 85px;
+  width: 47.71px;
+  height: 58px;
+}
+
+.header_site-name {
+  margin: 0;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 700;
 }
 
 .header_tabs {
@@ -331,6 +343,16 @@ button {
   .header_tab {
     font-size: 12px;
     text-align: center;
+  }
+
+  .header_site-name {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .header_logo {
+    width: 23.855px;
+    height: 29px;
   }
 
   .header_heading {
